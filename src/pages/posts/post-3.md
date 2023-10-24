@@ -1,4 +1,5 @@
 ---
+layout: "../../layouts/MarkDownPostLayout.astro"
 title: My Third Blog Post
 author: Abhinay Omkar
 description: "Post 3 - After learning some Astro, I couldn't stop!"

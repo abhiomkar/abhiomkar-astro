@@ -1,34 +1,7 @@
 ---
-const skillColor = "navy";
+import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>About</title>
-    <style define:vars={{skillColor}}>
-      a {
-        color: #0070f3;
-        text-decoration: none;
-      }
-
-      h1 {
-        color: var(--skillColor);
-      }
-    </style>
-  </head>
-  <body>
-    <h1>About</h1>
-
-    <a href="/">Home</a> |
-    <a href="/about/">About</a> |
-    <a href="/blog/">Blog</a>
-
-    <section class="container">
-      <a href="https://twitter.com/abhiomkar">abhiomkar@ on Twitter</a>
-    </section>
-  </body>
-</html>
+<BaseLayout pageTitle="About">
+  This is About page.
+</BaseLayout>

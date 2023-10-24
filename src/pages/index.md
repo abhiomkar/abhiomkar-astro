@@ -1,4 +1,5 @@
 ---
+layout: "../layouts/HomepageLayout.astro"
 title: "Abhinay Omkar"
 ---
 
