@@ -13,6 +13,7 @@ export async function getStaticPaths() {
 }
 
 const { tag } = Astro.params;
+// Props attached to the tag in `getStaticPaths()`
 const { one, two } = Astro.props;
 ---
 
