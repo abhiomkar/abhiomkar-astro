@@ -1,5 +1,4 @@
 .main-header {
-  background: #fff;
   position: relative;
   height: 105px;
   display: flex;
@@ -291,8 +290,8 @@ html {
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  color: #111;
-  background: #f9f9f9;
+  color: #000;
+  background: rgb(252 252 252);
 }
 
 h1 {

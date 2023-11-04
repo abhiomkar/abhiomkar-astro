@@ -1,7 +1,6 @@
 ---
-import Navigation from "../components/Navigation.astro";
 import Footer from "../components/Footer.astro";
-import '../styles/global.css';
+import "../styles/global.css";
 ---
 
 <html lang="en">
@@ -13,12 +12,19 @@ import '../styles/global.css';
     <title>{Astro.props.pageTitle} - Abhinay Omkar</title>
   </head>
   <body>
-    <div class='main-container'>
-      <Navigation />
-      <div class={`body-content ${Astro.props.fullWidth ? 'full-width' : ''}`}>
+    <div class="main-container">
+      <div class="main-header header-container">
+        <div class="header-bar">
+          <div>
+            <a href="/">
+              <h1 class="main-title">Abhinay Omkar</h1>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class={`body-content ${Astro.props.fullWidth ? "full-width" : ""}`}>
         <slot />
       </div>
-      <Footer />
     </div>
   </body>
 </html>

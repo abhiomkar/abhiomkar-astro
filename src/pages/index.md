@@ -23,15 +23,13 @@ front-end technologies, technical leadership, and promoting of a respectful work
 See my work and open source contribution at
 [Github](https://github.com/abhiomkar).
 
-See [/projects](/projects) for my little hacks.
-
 ## Photography
 
 I'm a self-taught photographer specializing in Creative Candid Moments, Weddings, Portraits, Travel, and Nature.
 I started on my own venture as a part-time freelancer in creative candid wedding photography some time ago.
 I have captured weddings of various traditions all over India, ranging from simple to big fat weddings.
 
-See photo gallery at [/photography](/photography).
+See some of my photography work at [behance.net/abhiomkar](https://www.behance.net/abhiomkar).
 
 > I love to travel and explore new places, I take photos to make world look
 > beautiful. I design & code to make the world a better place. :)
