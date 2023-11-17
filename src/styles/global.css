@@ -1,8 +1,12 @@
+:root {
+  --page-background-color: rgb(252 252 252);
+}
+
 .main-header {
   position: relative;
-  height: 105px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 839px) {
@@ -17,10 +21,13 @@
 
 .header-bar {
   display: flex;
-  padding: 22px 0 8px;
-  height: 105px;
+  justify-content: space-between;
   z-index: 9999;
-  background: #fff;
+  background: var(--page-background-color);
+}
+
+.logo-text {
+  margin: 0 16px;
 }
 
 @media screen and (max-width: 839px) {
@@ -112,15 +119,13 @@
 }
 
 .main-title {
-  display: inline-block;
+  display: inline-flex;
   line-height: 100%;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 1.2rem;
   letter-spacing: -1px;
   width: 100%;
-  display: block;
-  margin: 10px 6px;
-  color: rgba(51, 51, 51, 0.9);
+  margin: 0;
 }
 
 @media screen and (min-width: 840px) {
@@ -132,8 +137,6 @@
     white-space: nowrap;
     display: flex;
     margin-left: 20px;
-    height: 105px;
-    padding: 42px 0 8px;
     margin-right: 98px;
   }
 
@@ -179,7 +182,7 @@
   }
 
   .horizontal-nav.is-visible {
-    transform: none;
+    transform: translateY(0);
     visibility: visible;
   }
 }
@@ -291,7 +294,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   color: #000;
-  background: rgb(252 252 252);
+  background: var(--page-background-color);
 }
 
 h1 {
@@ -386,19 +389,6 @@ p {
 #post-list a,
 #post-nav a {
   transition: all 0.15s ease-in-out;
-}
-
-li {
-  line-height: 1.5;
-  list-style: none;
-}
-
-li:before {
-  content: "·";
-  font-size: 45px;
-  vertical-align: middle;
-  line-height: 20px;
-  padding-right: 8px;
 }
 
 b,

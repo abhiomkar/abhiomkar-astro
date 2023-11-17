@@ -1,5 +1,4 @@
 ---
-import Footer from "../components/Footer.astro";
 import "../styles/global.css";
 ---
 
@@ -11,18 +10,31 @@ import "../styles/global.css";
     <meta name="generator" content={Astro.generator} />
     <title>{Astro.props.pageTitle} - Abhinay Omkar</title>
   </head>
-  <body>
-    <div class="main-container">
-      <div class="main-header header-container">
-        <div class="header-bar">
-          <div>
-            <a href="/">
-              <h1 class="main-title">Abhinay Omkar</h1>
-            </a>
-          </div>
+  <body class="text-black">
+    <div class="mx-auto max-w-screen-sm px-4">
+      <div class="flex items-center justify-between flex-wrap pt-6">
+        <div class="pt-2 pr-6">
+          <a href="/" class="inline-flex">
+            <h1 class="p-0 m-0 text-xl font-semibold">Abhinay Omkar</h1>
+          </a>
+        </div>
+        <div class="pt-2">
+          <nav>
+            <ul class="list-none flex gap-6">
+              <li>
+                <a
+                  href="https://abhiomkar.medium.com"
+                  class={`inline-flex text-base text-black font-medium ${
+                    Astro.url.pathname === "/blog" ? "active" : ""
+                  }`}>Blog</a
+                >
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
-      <div class={`body-content ${Astro.props.fullWidth ? "full-width" : ""}`}>
+
+      <div>
         <slot />
       </div>
     </div>
