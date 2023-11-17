@@ -3,6 +3,8 @@ layout: "../layouts/HomepageLayout.astro"
 title: "Abhinay Omkar"
 ---
 
+## About
+
 My name is **Abhinay Omkar**. I'm an Indian he/him living in Bangalore, India (Previously worked
 at New York City and Chennai). I was born in Telangana, India and
 studied Computer Science of Engineering at _Koneru Lakshmaiah College of

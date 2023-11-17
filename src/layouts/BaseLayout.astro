@@ -10,29 +10,28 @@ import "../styles/global.css";
     <meta name="generator" content={Astro.generator} />
     <title>{Astro.props.pageTitle} - Abhinay Omkar</title>
   </head>
-  <body class="text-black">
-    <div class="mx-auto max-w-screen-sm px-4">
-      <div class="flex items-center justify-between flex-wrap pt-6">
-        <div class="pt-2 pr-6">
-          <a href="/" class="inline-flex">
-            <h1 class="p-0 m-0 text-xl font-semibold">Abhinay Omkar</h1>
-          </a>
-        </div>
-        <div class="pt-2">
-          <nav>
-            <ul class="list-none flex gap-6">
-              <li>
-                <a
-                  href="https://abhiomkar.medium.com"
-                  class={`inline-flex text-base text-black font-medium ${
-                    Astro.url.pathname === "/blog" ? "active" : ""
-                  }`}>Blog</a
-                >
-              </li>
-            </ul>
-          </nav>
-        </div>
+  <body class="text-black dark:text-white dark:bg-black">
+    <div class="mx-auto max-w-screen-sm px-4 py-16">
+      <a href="/" class="inline-flex">
+        <h1
+          class="p-0 m-0 text-lg font-medium text-gray-600 dark:text-gray-200 tracking-tight"
+        >
+          Abhinay Omkar
+        </h1>
+      </a>
+      <div class="pl-2 text-gray-400 inline-flex tracking-tight">
+        / abhiomkar@
       </div>
+      <nav>
+        <ul class="list-none flex gap-6">
+          <li>
+            <a
+              href="https://abhiomkar.medium.com"
+              class="inline-flex text-base hover:underline font-medium">Blog</a
+            >
+          </li>
+        </ul>
+      </nav>
 
       <div>
         <slot />
