@@ -7,7 +7,7 @@ html {
 }
 
 a {
-  @apply text-black font-medium hover:underline;
+  @apply underline decoration-1 decoration-neutral-300 underline-offset-4 transition-colors duration-500 hover:decoration-neutral-800;
 }
 
 img[alt="home_cover"] {
@@ -38,7 +38,7 @@ img[alt="home_cover"] {
 /** Headers */
 
 .markdown-content h1 {
-  @apply text-2xl tracking-tight mt-8 mb-4 font-bold;
+  @apply text-2xl tracking-tight mt-6 mb-4 font-bold;
 }
 
 .markdown-content h2 {

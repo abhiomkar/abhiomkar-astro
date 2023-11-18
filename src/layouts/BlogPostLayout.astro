@@ -1,0 +1,28 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+const { frontmatter } = Astro.props;
+---
+
+<BaseLayout pageTitle={`${frontmatter.title} - Abhinay Omkar's Blog`}>
+  <section class="blog-post-container">
+    <h1 class="text-2xl tracking-tight mt-6 mb-4 font-bold">
+      {frontmatter.title}
+    </h1>
+    <div class="flex -mt-2">
+      <div class="text-sm text-neutral-600">
+        {
+          frontmatter?.pubDate
+            ? new Date(frontmatter.pubDate)?.toLocaleDateString("en-US", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })
+            : ""
+        }
+      </div>
+    </div>
+    <div class="mt-4 markdown-content">
+      <slot />
+    </div>
+  </section>
+</BaseLayout>
