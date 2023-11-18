@@ -7,7 +7,7 @@ html {
 }
 
 a {
-  @apply underline decoration-1 decoration-neutral-300 underline-offset-4 transition-colors duration-500 hover:decoration-neutral-800;
+  @apply underline decoration-1 decoration-neutral-300 dark:decoration-neutral-500 underline-offset-4 transition-colors duration-500 hover:decoration-neutral-800 dark:hover:decoration-neutral-300;
 }
 
 img[alt="home_cover"] {

@@ -12,15 +12,31 @@ const { frontmatter } = Astro.props;
       </div>
 
       <div>
-        <h2 class="font-bold text-xl mt-4">Blog</h2>
-        {
-          allPosts.map((post) => (
-            <li>
-              <a href={post.url}>{post.frontmatter.title}</a>
-            </li>
-          ))
-        }
-        <a href="/blog">See all posts →</a>
+        <h2
+          class="font-bold text-xl mt-4text-2xl tracking-tight mt-6 mb-4 font-bold"
+        >
+          Blog
+        </h2>
+        <ul>
+          {
+            allPosts.map((post) => (
+              <li class="py-2 flex justify-between">
+                <a class="text-base" href={post.url}>
+                  {post.frontmatter.title}
+                </a>
+                <div class="">
+                  {post.frontmatter?.pubDate
+                    ? new Date(post.frontmatter.pubDate)?.toLocaleDateString(
+                        "en-US",
+                        { year: "numeric", month: "long", day: "numeric" }
+                      )
+                    : ""}
+                </div>
+              </li>
+            ))
+          }
+        </ul>
+        <a class="inline-flex mt-4" href="/blog">See all posts →</a>
       </div>
     </div>
   </section>

@@ -9,7 +9,7 @@ const { frontmatter } = Astro.props;
       {frontmatter.title}
     </h1>
     <div class="flex -mt-2">
-      <div class="text-sm text-neutral-600">
+      <div class="text-sm text-neutral-600 dark:text-neutral-400">
         {
           frontmatter?.pubDate
             ? new Date(frontmatter.pubDate)?.toLocaleDateString("en-US", {
