@@ -4,7 +4,7 @@ const allPosts = await Astro.glob("../pages/posts/*.md");
 const { frontmatter } = Astro.props;
 ---
 
-<BaseLayout pageTitle={frontmatter.title}>
+<BaseLayout title={frontmatter.title}>
   <section class="homepage-content pt-8">
     <div>
       <div class="markdown-content">

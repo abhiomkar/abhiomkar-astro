@@ -1,5 +1,8 @@
 ---
 import "../styles/global.css";
+
+const title =
+  Astro.props?.frontmatter?.title || Astro.props?.title || "Abhinay Omkar";
 ---
 
 <html lang="en">
@@ -8,7 +11,7 @@ import "../styles/global.css";
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>{Astro.props.pageTitle} - Abhinay Omkar</title>
+    <title>{title}</title>
   </head>
   <body class="text-black dark:text-white dark:bg-black">
     <div class="mx-auto max-w-screen-sm px-4 py-8">
@@ -23,11 +26,18 @@ import "../styles/global.css";
         / abhiomkar@
       </div>
       <nav>
-        <ul class="list-none flex gap-6 mt-1">
+        <ul class="list-none flex gap-4 mt-1">
           <li>
             <a
               href="https://abhiomkar.medium.com"
-              class="inline-flex text-base hover:underline font-medium">Blog</a
+              class="inline-flex text-sm hover:underline font-medium">Blog</a
+            >
+          </li>
+          <li>
+            <a
+              href="/projects"
+              class="inline-flex text-sm hover:underline font-medium"
+              >Projects</a
             >
           </li>
         </ul>
