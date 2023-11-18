@@ -29,7 +29,7 @@ Compile Sass on the browser. Playground to author Sass on the browser and see it
 
 Emoji lookup app. Everyone has their own meaning of what particular emoji means. Add your custom notes to an emoji or lookup by crowdsourced keywords.
 
-## [abhiomkar-next](https://github.com/abhiomkar/abhiomkar-nuxt)
+## [abhiomkar-nuxt](https://github.com/abhiomkar/abhiomkar-nuxt)
 
 Abhinay Omkar's personal website built on Nuxt.js
 
