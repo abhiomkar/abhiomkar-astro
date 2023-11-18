@@ -6,7 +6,7 @@ title: "Abhinay Omkar"
 I'm Abhinay, a Senior Software Engineer at Google with over 16 years of experience in the field.
 I'm currently based in Bangalore, India, and I'm originally from Telangana, India.
 
-![home_cover](../images/home_cover_landscape.jpg)
+![home_cover](../images/home_cover_aspect_3x2.jpg)
 
 ## Work
 
