@@ -5,14 +5,14 @@ const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout title={frontmatter.title}>
-  <section class="homepage-content pt-8">
+  <section class="pt-4">
     <div>
-      <div class="markdown-content">
+      <div class="markdown-content mt-4">
         <slot />
       </div>
 
-      <div class="hidden">
-        <h3 class="font-bold text-xl mt-4">Blog</h3>
+      <div>
+        <h2 class="font-bold text-xl mt-4">Blog</h2>
         {
           allPosts.map((post) => (
             <li>

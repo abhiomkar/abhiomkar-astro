@@ -6,6 +6,8 @@ title: "Abhinay Omkar"
 I'm Abhinay, a Senior Software Engineer at Google with over 16 years of experience in the field.
 I'm currently based in Bangalore, India, and I'm originally from Telangana, India.
 
+![home_cover](../images/home_cover_landscape.jpg)
+
 ## Work
 
 Currently at Google, I focus on improving the developer experience for Google Search. Previous teams, Workspace and Material Design. Previously worked at Akamai Technologies & HCL Technologies.
@@ -25,5 +27,3 @@ I have captured weddings of various traditions all over India, ranging from simp
 - Linkedin - [linkedin.com/in/abhiomkar](https://www.linkedin.com/in/abhiomkar)
 - GitHub - [github.com/abhiomkar](https://github.com/abhiomkar)
 - Behance - [behance.net/abhiomkar](https://www.behance.net/abhiomkar)
-
-![home_cover](../images/home_cover.jpg)
