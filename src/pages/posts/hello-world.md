@@ -7,7 +7,7 @@ author: "Abhinay Omkar"
 image:
   url: "https://docs.astro.build/assets/full-logo-light.png"
   alt: "The full Astro logo."
-tags: ["blog"]
+tags: ["blog", "first"]
 ---
 
 This is the first blog post.
