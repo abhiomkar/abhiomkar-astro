@@ -1,16 +1,35 @@
 body,
 html {
-  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
     Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
 
+a {
+  @apply text-black font-medium hover:underline;
+}
+
+.markdown-content ul {
+  @apply list-disc;
+}
+
+.markdown-content ul {
+  @apply list-disc;
+}
+
+.markdown-content li {
+  @apply leading-8 ml-4;
+}
+
+.markdown-content p {
+  @apply leading-6 mb-6;
+}
+
 .markdown-content h2 {
   @apply text-xl tracking-tight mt-8 mb-4 font-bold;
 }
 
-.homepage-content .markdown-content p {
-  @apply text-base leading-6;
+img[alt="home_cover"] {
+  @apply h-60 rounded-full mx-auto mt-12;
 }
