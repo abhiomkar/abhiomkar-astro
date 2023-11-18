@@ -26,4 +26,4 @@ I have captured weddings of various traditions all over India, ranging from simp
 - GitHub - [github.com/abhiomkar](https://github.com/abhiomkar)
 - Behance - [behance.net/abhiomkar](https://www.behance.net/abhiomkar)
 
-![home_cover](/public/home_cover.jpg)
+![home_cover](../images/home_cover.jpg)
