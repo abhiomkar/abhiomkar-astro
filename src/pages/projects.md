@@ -5,6 +5,10 @@ title: "Abhinay Omkar - Projects"
 
 # Projects
 
+## [Meal AI](https://github.com/abhiomkar/MealAI)
+
+Project codenamed Meal AI. Lets users generate weekly balanced meal plan for given ingredients. Built with NextAuth.js, Next.js app router, TailwindCSS, Prisma ORM, and Postgres.
+
 ## [abhiomkar-astro](https://github.com/abhiomkar/abhiomkar-astro)
 
 Abhinay Omkar's personal site built with Astro.
