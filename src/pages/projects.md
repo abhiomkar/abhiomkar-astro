@@ -5,6 +5,10 @@ title: "Abhinay Omkar - Projects"
 
 # Projects
 
+## [abhiomkar-astro](https://github.com/abhiomkar/abhiomkar-astro)
+
+Abhinay Omkar's personal site built with Astro.
+
 ## [abhiomkar-next](https://github.com/abhiomkar/abhiomkar-next)
 
 Abhinay Omkar's personal site built on Next.js
