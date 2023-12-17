@@ -7,21 +7,20 @@ author: "Abhinay Omkar"
 tags: []
 ---
 
-I posted my [first ever blog post](https://abhinay.wordpress.com/2006/07/29/hello-world/) that I've on record is on 2006-07-29 (17 years ago!). I've revamped my site and my blog many many times ever since.
+I published my first-ever [blog post](https://abhinay.wordpress.com/2006/07/29/hello-world/), which dates back to July 29, 2006 (17 years ago!). Since then, I have continuously revamped my site and blog.
 
-After many years since my last site I built, I revamped my site yet again with a completely new tech stack. Previously it was built with Next.js. I thought I'll write about on why I chose to use Astro to build my site including my blog site.
+After several years, I have once again overhauled my site, this time with a completely new tech stack using Astro framework. Previously, it was built with Next.js. I thought it would be interesting to share why I chose Astro for building my site, including the blog.
 
-If you're following front-end technologies closely the timespan of a frameworks (including UI frameworks, meta frameworks, etc) or even a platforms such as (Wordpress, Medium, etc) are very volatile. That is, by years pass by your site becomes outdated. If you want to touch your site's codebase for adding a new feature you'll be forced to upgrade or migrate to a new version. If you want to switch to a new tech stack for some reason it would make it harder to port since the framework that you chose to write is very opinionated. This makes the migration cost very expensive.
+For those closely following front-end technologies, it's apparent that the lifespan of frameworks (including UI frameworks, meta frameworks, etc.) and platforms (like WordPress, Medium, etc.) is quite volatile. As years pass, your site can become outdated. Adding a new feature or touching the site's codebase often forces an upgrade or migration to a newer version. Switching to a new tech stack can be challenging, especially if the chosen framework is highly opinionated, making migration costly.
 
-## Criteria 
+## Criteria
 
-My criteria for choosing a tech stack for my site:
+My criteria for selecting a tech stack for my site were:
 
-- **Portable:** Should be easily portable from one framework to other framework. The framework should not be too opinianted on the content should be authored. The content should be separated out from the framework specific APIs so that we can move the content easily to somewhere else if needed.
-- **Fast:** The web performance should be fast (blazily fast!) for seemingly simple site like this.
-- **Progressive:** Framework should start simple, and allow user to scale it to add complex features in future (Including dynamic content, mutations, complex HTML forms, etc) if needed.
-- **Lightweight:** The framework API interface footprint itself should be very thin. This also addresses portable criteria as I mentioned above as the framework API itself minimal focusing on the content.
+- **Portable:** It should be easy to migrate from one framework to another. The framework shouldn't be overly opinionated about how content is authored. Content should be separate from framework-specific APIs, allowing for easy relocation if necessary.
+- **Fast:** Web performance should be exceptionally fast for a seemingly simple site like this.
+- **Progressive:** The framework should start simple and support scaling to add complex features in the future (including dynamic content, mutations, complex HTML forms, etc.) as needed.
+- **Lightweight:** The framework's API interface footprint should be minimal. This also contributes to portability, as a minimal API focuses more on content.
+I've purposefully avoided using framework-specific semantics, prioritizing features provided by the web platform itself. This approach reduces the learning curve and concerns about potential deprecation of framework APIs.
 
-I've purposefully avoided using framework specific semantics and prioritized using web platform provided feature when possible. This reduces learning curve, and we don't have worry about whether a framework API is getting deprecated.
-
-Hoping this site be evergreen (fingers-crossed). You can read the source code of this site at [abhiomkar/abhiomkar-astro](https://github.com/abhiomkar/abhiomkar-astro). 
+I'm hoping this site remains evergreen (fingers crossed). You can view the source code of this site at [abhiomkar/abhiomkar-astro](https://github.com/abhiomkar/abhiomkar-astro).
