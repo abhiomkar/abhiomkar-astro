@@ -14,28 +14,24 @@ img[alt="home_cover"] {
   @apply aspect-[3/2] rounded-sm;
 }
 
-/* Markdown */
+/** Markdown. */
 
-/** List */
+/** Markdown: List */
 .markdown-content ul {
-  @apply list-disc;
-}
-
-.markdown-content ul {
-  @apply list-disc;
+  @apply list-disc mt-4 mb-4;
 }
 
 .markdown-content li {
-  @apply leading-8 ml-4;
+  @apply leading-6 ml-4 mb-2;
 }
 
-/* Body */
+/* Markdown: Body */
 
 .markdown-content p {
   @apply leading-6 mb-6;
 }
 
-/** Headers */
+/** Markdown: Headers */
 
 .markdown-content h1 {
   @apply text-2xl tracking-tight mt-6 mb-4 font-bold;
